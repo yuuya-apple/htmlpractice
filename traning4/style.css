@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+.container {
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+header img {
+  border-radius: 50%;
+}
+
+.my_skills {
+  background-color: gray;
+}
+
+.my_skills ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  gap: 30%;
+}
+
+.html5 {
+  background-color: red;
+}
+
+.css3 {
+  background-color: yellow;
+}
+s .javascript {
+  background-color: blue;
+}
+
+.my_skills ul li {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
