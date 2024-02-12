@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>問い合わせ</h1>
+    <form action="#" method="post">
+      <dl>
+        <dt><label for="username">名前</label></dt>
+        <dd><input id="username" type="text" name="username" /></dd>
+
+        <dt><label for="email">メールアドレス</label></dt>
+        <dd><input class="email" type="text" name="email" />住まいの地域</dd>
+
+        <dt>セレクト</dt>
+        <dd>
+          <select name="area" id="area">
+            <option value="">未選択</option>
+            <option value="first">ひとつ目</option>
+          </select>
+        </dd>
+
+        <dt>性別</dt>
+        <dd>
+          <label>
+            <input type="radio" name="gender" id="male" checked /> 男
+          </label>
+          <label>
+            <input type="radio" name="gender" id="female" checked /> 女
+          </label>
+        </dd>
+
+        <dt><label for="content">お問い合わせ</label></dt>
+        <dd>
+          <textarea id="content" name="content"></textarea>
+        </dd>
+
+        <dt><label for="privacy">プライバシーに同意</label></dt>
+        <dd>
+          <input id="privacy" type="checkbox" name="privacy" value="1" />
+        </dd>
+      </dl>
+    </form>
+  </body>
+</html>
